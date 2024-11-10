@@ -1,0 +1,31 @@
+.container{
+    width: calc(100% - 120px);
+    margin:  auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.category , .product{
+    background-color: aqua;
+    width: 25%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.product{
+    background-color: rgb(132, 16, 127);
+    width: 25%;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
+    margin: 10px;
+    text-align: center;
+    
+}
