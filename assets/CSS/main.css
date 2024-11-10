@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 
-.category , .product{
+.category {
     background-color: aqua;
     width: 25%;
     padding: 20px;
@@ -21,11 +21,12 @@
 }
 
 .product{
-    background-color: rgb(132, 16, 127);
-    width: 25%;
+    background-color: lightblue;
+    width: 20%;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .1);
     margin: 10px;
     text-align: center;
+
     
 }
